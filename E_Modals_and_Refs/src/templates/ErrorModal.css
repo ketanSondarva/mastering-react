@@ -1,0 +1,41 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+    position: fixed;
+    top: 30vh;
+    left: 10%;
+    height: 30%;
+    width: 82%;
+    z-index: 100;
+    background: rgb(219, 219, 43);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.content {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header {
+    background: #084c99;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    /* border-radius: 4px; */
+    padding: 3px;
+}
+
+.actions {
+    text-align: center;
+}

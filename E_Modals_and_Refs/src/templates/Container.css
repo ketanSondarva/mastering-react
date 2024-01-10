@@ -1,0 +1,49 @@
+.container {
+    height: auto;
+    width: fit-content;
+    /* position: fixed; */
+    /* border: solid 1px black; */
+    /* margin-left: 14%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 10px;
+    height: 100px; */
+    font-size: 18px;
+}
+
+.input {
+    border-radius: 5px;
+    line-height: 20px;
+    font-size: 18px;
+    width: auto;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+.input-container {
+    margin: 10px;
+}
+
+button {
+    font-size: 16px;
+    background-color: rgb(46, 46, 177);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 9px;
+    width: 180px;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(62, 62, 144);
+    cursor: pointer;
+}
+
+.subscriber {
+    position: relative;
+    /* top: 140px; */
+    height: 500px;
+}
