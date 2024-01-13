@@ -76,3 +76,26 @@
         4. we can also create custom provider, see: [SubscriptionContextProvider]
         (F_Effect_Reducer_Context/src/components/Subscription/Context/SubscriptionContextProvider.jsx)
 5. created [Input](F_Effect_Reducer_Context/src/components/Subscription/Input.jsx) componet that shows how we can use component resuability (not used in project, for demo purpose only)
+
+## [Virtual Dom, useCallback and useMemo hooks](G_VD_memo_callbackHook/src/App.jsx):
+
+1. Virtual dom: inspect the code and see how the dom tree changes itself on button click.
+2. [Paragraph](G_VD_memo_callbackHook/src/components/Paragraph.jsx) component was exported with `React.useMemo()` so unnecessary child evolution get prevented.
+3. [App.jsx](G_VD_memo_callbackHook/src/App.jsx): see the use of `useCallback()` which is used to prevernt the re-evaluation of the element.
+4. @[Article.jsx](G_VD_memo_callbackHook/src/components/Classes/Article.jsx) class based component introduced with its lifecycle.
+5. class based component are good for catching error hapens during the lifecycle of the component, we have create class based component: [ErrorBoundies.jsx](G_VD_memo_callbackHook/src/components/Classes/ErrorBoundries.jsx) which is used as wrapping element at App.jsx
+
+## [Fullstack: fetch api, promise and async await. using fetch api retrived and added the data into mysql database ](H_Fetch_Promises_AsyncAwait/src/App.jsx) congratulation 🎉 you are fullstack dev now
+
+1. use loading mechanism: loading while doing the api call
+2. introduced error handling in both: promises and async await
+3. introduced 2 methods of doing `fetch()`: get(by default) and post
+
+## [Custom hooks and Form validation](I_CustomHooks_FormValidation/src/App.jsx):
+
+1. [sendRequest.jsx](I_CustomHooks_FormValidation/src/hooks/sendRequest.jsx) is custom hook for fetching api, error handling and loader maintain by hook.
+2. inroduced form validation @[SimpleInput.jsx](I_CustomHooks_FormValidation/src/components/SimpleInput.jsx)
+3. introduced custom hook [useInput](I_CustomHooks_FormValidation/src/hooks/use-input.jsx) for validate input, maintain the all related state shown @[SimpleInput.jsx](I_CustomHooks_FormValidation/src/components/SimpleInput.jsx) and reduce complexity, see the magic @[SimpleInputUsingHook.jsx](I_CustomHooks_FormValidation/src/components/SimpleInputUsingHook.jsx).
+
+
+
